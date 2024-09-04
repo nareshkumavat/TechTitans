@@ -2,6 +2,25 @@ function showStreamSelection() {
     document.getElementById('stream-selection').classList.remove('hidden');
 }
 
+document.getElementById('mentor-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    const results = document.getElementById('mentor-results');
+    const formData = new FormData(event.target);
+    const name = formData.get('name');
+    const email = formData.get('email');
+    const careerInterest = formData.get('career-interest');
+
+    let resultText = '<h3>Thank you for your submission!</h3>';
+    resultText += `<p>Name: ${name}</p>`;
+    resultText += `<p>Email: ${email}</p>`;
+    resultText += `<p>Career Interest: ${careerInterest}</p>`;
+    resultText += '<p>We will connect you with a mentor soon.</p>';
+
+    results.innerHTML = resultText;
+});
+
+
 function showCourseSelection() {
     const stream = document.getElementById('stream-dropdown').value;
     const courseDropdown = document.getElementById('course-dropdown');

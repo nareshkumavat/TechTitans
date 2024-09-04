@@ -3,83 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Career Counselling</title>
+    <title>Career Counseling - Login</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Career Counselling</h1>
-        <nav class="nav">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-        </nav>
+        <h1>Career Counseling</h1>
     </header>
 
-    <div class="hero">
-        <div class="head">
-            Empower Your Future: Personalized Career Guidance for Every Student.
-        </div>
-        <div class="des">
-            Personalized career guidance to help you discover your strengths and explore the best career paths for your future.
-            
-        </div>
-        <div class="cta">
-            <a href="input.html" class="button">Get Started</a> <!-- New "Get Started" button -->
-        </div>
-    </div>
-    
+    <main>
+        <section class="auth-section">
+            <div class="auth-forms">
+                <div class="form-container" id="login-container">
+                    <h2>Login</h2>
+                    <form id="login-form">
+                        <div class="form-group">
+                            <label for="login-username">Username:</label>
+                            <input type="text" id="login-username" name="username" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="login-password">Password:</label>
+                            <input type="password" id="login-password" name="password" required>
+                        </div>
+                        <button type="submit" class="btn">Login</button>
+                    </form>
+                    <p>Don't have an account? <a href="#" id="show-signup">Sign Up</a></p>
+                </div>
 
-    <section id="career-pathways">
-        <h2>Career Pathways</h2>
-        <div class="pathway">
-            <h3>Engineering</h3>
-            <p>Explore various fields in engineering, including mechanical, electrical, and civil engineering. Learn about the required skills, education, and job opportunities.</p>
-            <a href="engineering.html">Learn More</a>
-        </div>
-        <div class="pathway">
-            <h3>Design</h3>
-            <p>Discover careers in design, from graphic design to UX/UI design. Find out what skills you need and the best educational paths to follow.</p>
-            <a href="design.html">Learn More</a>
-        </div>
-    </section>
-    
-    <section id="career-quiz">
-        <h2>Career Quiz</h2>
-        <p>Take our interactive quiz to discover your strengths and find the best career paths for you.</p>
-        <a href="quiz.html" class="btn">Start Quiz</a>
-    </section>
-
-    <section class="counselor-section">
-        <h2>Connect with a Counselor</h2>
-        <p>Fill out the form below to connect with a career mentor who can guide you on your professional journey.</p>
-        <form id="counselor-form">
-            <div class="form-group">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
+                <div class="form-container" id="signup-container" style="display: none;">
+                    <h2>Sign Up</h2>
+                    <form id="signup-form">
+                        <div class="form-group">
+                            <label for="signup-username">Username:</label>
+                            <input type="text" id="signup-username" name="username" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="signup-email">Email:</label>
+                            <input type="email" id="signup-email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="signup-password">Password:</label>
+                            <input type="password" id="signup-password" name="password" required>
+                        </div>
+                        <button type="submit" class="btn">Sign Up</button>
+                    </form>
+                    <p>Already have an account? <a href="#" id="show-login">Login</a></p>
+                </div>
             </div>
-            <div class="form-group">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-            <div class="form-group">
-                <label for="career-interest">Career Interest:</label>
-                <input type="text" id="career-interest" name="career-interest" required>
-            </div>
-            <button type="submit" class="btn">Submit</button>
-        </form>
-        <div id="counselor-results"></div>
-    </section>
-
-    <section id="services">
-        <h2>Our Services</h2>
-        <p>We offer a range of services to help you navigate your career journey, including one-on-one counseling, skill assessments, and career workshops.</p>
-    </section>
+        </section>
+    </main>
 
     <footer>
-        <p>&copy; 2024 Career Counselling. All rights reserved.</p>
+        <p>© 2024 Career Counseling. All rights reserved.</p>
     </footer>
 
-    <script src="app.js"></script>
+    <script src="auth.js"></script>
 </body>
 </html>

@@ -15,7 +15,7 @@ document.getElementById('counselor-form').addEventListener('submit', function(ev
     resultText += `<p>Name: ${name}</p>`;
     resultText += `<p>Email: ${email}</p>`;
     resultText += `<p>Career Interest: ${careerInterest}</p>`;
-    resultText += '<p>We will connect you with a mentor soon.</p>';
+    resultText += '<p>We will connect you with a counselor soon.</p>';
 
     results.innerHTML = resultText;
 });

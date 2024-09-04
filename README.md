@@ -23,7 +23,11 @@ Navigate through the website using the navigation bar.
 Take the quiz and view your personalized career recommendations.
 
 # Future Enhancements
-Detailed Career Reports: Provide more detailed reports based on quiz results.
-User Accounts: Allow users to create accounts and save their quiz results.
-Additional Quizzes: Add more quizzes to cover different aspects of career counseling.
+
+*Detailed Career Reports: Provide more detailed reports based on quiz results.
+
+*User Accounts: Allow users to create accounts and save their quiz results.
+
+*Additional Quizzes: Add more quizzes to cover different aspects of career counseling.
+
 Feel free to customize this description further to better match your project’s specifics! If you need any more help, just let me know.

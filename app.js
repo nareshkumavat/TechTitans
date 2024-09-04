@@ -2,10 +2,10 @@ function showStreamSelection() {
     document.getElementById('stream-selection').classList.remove('hidden');
 }
 
-document.getElementById('counselor-form').addEventListener('submit', function(event) {
+document.getElementById('mentor-form').addEventListener('submit', function(event) {
     event.preventDefault();
 
-    const results = document.getElementById('counselor-results');
+    const results = document.getElementById('mentor-results');
     const formData = new FormData(event.target);
     const name = formData.get('name');
     const email = formData.get('email');
@@ -15,7 +15,7 @@ document.getElementById('counselor-form').addEventListener('submit', function(ev
     resultText += `<p>Name: ${name}</p>`;
     resultText += `<p>Email: ${email}</p>`;
     resultText += `<p>Career Interest: ${careerInterest}</p>`;
-    resultText += '<p>We will connect you with a counselor soon.</p>';
+    resultText += '<p>We will connect you with a mentor soon.</p>';
 
     results.innerHTML = resultText;
 });

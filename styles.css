@@ -342,7 +342,7 @@ button:hover {
 }
 
 /* Mentor Section */
-.mentor-section {
+.counselor-section {
     background-color: #e3f2fd;
     padding: 4rem 2rem;
     text-align: center;
@@ -352,14 +352,14 @@ button:hover {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.mentor-section h2 {
+.counselor-section h2 {
     font-size: 2rem;
     color: #1976d2;
     margin-bottom: 1rem;
     font-family: 'Poppins', sans-serif;
 }
 
-.mentor-section p {
+.counselor-section p {
     font-size: 1.1rem;
     color: #333;
     margin-bottom: 2rem;
@@ -388,7 +388,7 @@ button:hover {
     font-family: 'Roboto', sans-serif;
 }
 
-#mentor-results {
+#counselor-results {
     margin-top: 2rem;
     font-family: 'Roboto', sans-serif;
     color: #333;

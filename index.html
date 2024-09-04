@@ -28,6 +28,7 @@
             <a href="input.html" class="button">Get Started</a> <!-- New "Get Started" button -->
         </div>
     </div>
+    
 
     <section id="career-pathways">
         <h2>Career Pathways</h2>
@@ -47,6 +48,27 @@
         <h2>Career Quiz</h2>
         <p>Take our interactive quiz to discover your strengths and find the best career paths for you.</p>
         <a href="quiz.html" class="btn">Start Quiz</a>
+    </section>
+
+    <section class="mentor-section">
+        <h2>Connect with a Mentor</h2>
+        <p>Fill out the form below to connect with a career mentor who can guide you on your professional journey.</p>
+        <form id="mentor-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="career-interest">Career Interest:</label>
+                <input type="text" id="career-interest" name="career-interest" required>
+            </div>
+            <button type="submit" class="btn">Submit</button>
+        </form>
+        <div id="mentor-results"></div>
     </section>
 
     <section id="services">

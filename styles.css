@@ -109,6 +109,7 @@ section {
     margin-bottom: 2rem;
 }
 
+
 /* Input Form Section */
 #input-form {
     padding: 4rem 2rem;
@@ -216,8 +217,6 @@ button:hover {
     text-align: center;
 }
 
-
-
 .dropdown-section {
     margin-bottom: 2rem;
 }
@@ -257,6 +256,62 @@ button:hover {
     position: relative;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
+/* Mentor Section */
+.mentor-section {
+    background-color: #e3f2fd;
+    padding: 4rem 2rem;
+    text-align: center;
+    max-width: 1200px;
+    margin: 2rem auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.mentor-section h2 {
+    font-size: 2rem;
+    color: #1976d2;
+    margin-bottom: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mentor-section p {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#mentor-results {
+    margin-top: 2rem;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    text-align: left;
+}
+
+
 /* Career Pathways Section */
 #career-pathways {
     padding: 2rem 2rem;
@@ -647,7 +702,42 @@ button:hover {
 
 .contact-section button:hover {
     background-color: #4a90e2;
-}
+}
+
+
+/* Footer */
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 2rem;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Interactivity */
+button, .des a {
+    animation: fadeInUp 1s ease-in-out;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Smooth Scroll */
+html {
+    scroll-behavior: smooth;
+}
 
 /* Responsive Design */
 @media (max-width: 768px) {
@@ -707,38 +797,4 @@ button {
 
 button:hover {
     background-color: #4a90e2;
-}
-
-/* Footer */
-footer {
-    background-color: #003366;
-    color: white;
-    text-align: center;
-    padding: 2rem 0;
-    font-family: 'Poppins', sans-serif;
-    margin-top: 2rem;
-    bottom: 0;
-    width: 100%;
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
-}
-
-/* Interactivity */
-button, .des a {
-    animation: fadeInUp 1s ease-in-out;
-}
-
-@keyframes fadeInUp {
-    0% {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-/* Smooth Scroll */
-html {
-    scroll-behavior: smooth;
 }

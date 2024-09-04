@@ -2,10 +2,10 @@ function showStreamSelection() {
     document.getElementById('stream-selection').classList.remove('hidden');
 }
 
-document.getElementById('mentor-form').addEventListener('submit', function(event) {
+document.getElementById('counselor-form').addEventListener('submit', function(event) {
     event.preventDefault();
 
-    const results = document.getElementById('mentor-results');
+    const results = document.getElementById('counselor-results');
     const formData = new FormData(event.target);
     const name = formData.get('name');
     const email = formData.get('email');

@@ -647,42 +647,7 @@ button:hover {
 
 .contact-section button:hover {
     background-color: #4a90e2;
-}
-
-
-/* Footer */
-footer {
-    background-color: #003366;
-    color: white;
-    text-align: center;
-    padding: 2rem 0;
-    font-family: 'Poppins', sans-serif;
-    margin-top: 2rem;
-    bottom: 0;
-    width: 100%;
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
-}
-
-/* Interactivity */
-button, .des a {
-    animation: fadeInUp 1s ease-in-out;
-}
-
-@keyframes fadeInUp {
-    0% {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-/* Smooth Scroll */
-html {
-    scroll-behavior: smooth;
-}
+}
 
 /* Responsive Design */
 @media (max-width: 768px) {
@@ -742,4 +707,38 @@ button {
 
 button:hover {
     background-color: #4a90e2;
+}
+
+/* Footer */
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 2rem;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Interactivity */
+button, .des a {
+    animation: fadeInUp 1s ease-in-out;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Smooth Scroll */
+html {
+    scroll-behavior: smooth;
 }

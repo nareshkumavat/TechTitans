@@ -397,7 +397,7 @@ body {
     }
 
     .menu li a {
-        font-size: 0.8rem; /* Further reduce font size for very small screens */
+        font-size: 0.68rem; /* Further reduce font size for very small screens */
     }
 }
 

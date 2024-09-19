@@ -387,7 +387,8 @@ body {
     display: none;
 }
 
-@media (max-width: 610px) {
+@media (max-width: 610px),(max-width: 550px) {
+    
     .menu {
         justify-content: center; /* Center items on smaller screens */
     }
@@ -400,8 +401,6 @@ body {
         font-size: 0.68rem; /* Further reduce font size for very small screens */
     }
 }
-
-
 
 
 /* Auth Section */

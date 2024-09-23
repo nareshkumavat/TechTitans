@@ -400,6 +400,11 @@ body {
     .menu li a {
         font-size: 0.68rem; /* Further reduce font size for very small screens */
     }
+
+.logo img {
+    width: 3rem; 
+    height: auto; 
+    filter: drop-shadow(1.5px 3px 5px black); 
 }
 
 
